@@ -110,7 +110,7 @@
 /third_party/vulkan-validation-layers/src
 /third_party/vulkan_memory_allocator
 /third_party/wayland
-/third_party/zlib
+# /third_party/zlib # Commented out for Kodi use
 /tools/android
 /tools/clang
 /tools/flex-bison/linux/bison
@@ -155,3 +155,5 @@ TestResults.qpa
 
 # Any temporary files will confuse code generation.
 !scripts/code_generation_hashes/*
+
+build/ # Added for Kodi use
