@@ -6,11 +6,6 @@
 
 // SystemInfo_win.cpp: implementation of the Windows-specific parts of SystemInfo.h
 
-#include "gpu_info_util/SystemInfo_internal.h"
-
-#include "common/debug.h"
-#include "common/string_utils.h"
-
 // Windows.h needs to be included first
 #include <windows.h>
 
@@ -18,6 +13,11 @@
 
 #include <array>
 #include <sstream>
+
+#include "gpu_info_util/SystemInfo_internal.h"
+
+#include "common/debug.h"
+#include "common/string_utils.h"
 
 namespace angle
 {
